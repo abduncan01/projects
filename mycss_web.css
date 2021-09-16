@@ -57,6 +57,16 @@ img {
   color: #A2FFFE;
   text-shadow: -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000;
 }
+#idselect1 {
+  text-align: center;
+  color: #001150;
+}
+table, th, td {
+  border: 1px solid #30D5C8;
+}
+ul {
+  list-style-type: disc;
+}
 @media only screen and (min-width: 1024px){
   img {
     display: block;
