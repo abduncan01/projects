@@ -36,7 +36,7 @@ p {
 }
 p {
   word-spacing: 1px;
-  line-height: 1.0;
+  line-height: normal;
 }
 ul {
   display: table;
