@@ -11,3 +11,32 @@
 <script src = "todo.js"> </script>
 <title>To do list</title>
 </head>
+  <link rel = "stylesheet" href = "todo.css">
+<script src = "todo.js"> </script>
+<title>To do list</title>
+</head>
+<body>
+<h1>To do List</h1>
+<img src = "https://image.flaticon.com/icons/png/512/1567/1567073.png"/>
+<ul id = "task_list">
+
+</ul>
+<form id = "new-task">New Task
+<input class = "task-title" id = "task-title" autocomplete="off" autofocus placeholder="New Task" type = "text">
+
+<label for = "task-priority">Task Priority</label>
+<select name = "task-priority" id = "task-priority">
+<option value="low">low</option>
+<option value="med">med</option>
+<option value="high">high</option>
+</select>
+
+<label for = "task-status">Task Status</label>
+<input class = "task-status" name = "task-status" type = "radio" value = "pending"> Pending
+<input class = "task-status" name = "task-status" type = "radio" value = "completed"> Completed
+
+
+<input id = "submit" type = "submit">
+</form>
+</body>
+</html>
