@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 var task1 = [];
-document.querySelector('#new-task').onsubmit = function (event){
+document.querySelector('#newTask').onsubmit = function (event){
 event.preventDefault();
 const list = document.createElement('list');
   
@@ -15,7 +15,7 @@ if (inputs[i].checked){
 status = inputs[i].value;
 }
 
-let new_task_html = `<div class = "new-task-html"> <span> ${title} </span> <span>| ${priority} </span> <span> | ${status} </span> </div>
+let new_task_html = `<div class = "newTask"> <span> ${title} </span> <span>| ${priority} </span> <span> | ${status} </span> </div>
   
 <button class = "Completed"> Mark as Complete </button> <button class = "remove"> Remove </button>`;
 //let new_task_priority = ` <span> ${priority} </span>`;
@@ -40,7 +40,7 @@ element.parentElement.remove();
 }
 if (element.className === 'Completed' || element.className === 'completed'){
 //document.querySelector('#task-title').strike();
-element.parentElement.querySelector('.new-task-html').style.textDecoration = "line-through";
+element.parentElement.querySelector('.newTask').style.textDecoration = "line-through";
 element.status = "completed";
 }
 })
