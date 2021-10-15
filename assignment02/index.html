@@ -29,16 +29,17 @@
 <form id = "newTask">New Task
 <input class = "title" id = "title" autocomplete="off" autofocus placeholder="New Task" type = "text">
 
-<label for = "priority">Task Priority</label>
+    <label for = "status">Status</label>
+<input class = "status" name = "status" type = "radio" value = "pending"> Pending
+<input class = "status" name = "status" type = "radio" value = "completed"> Completed
+    
+<label for = "priority">Priority</label>
 <select name = "priority" id = "priority">
 <option value="low">low</option>
-<option value="med">med</option>
+<option value="medium">med</option>
 <option value="high">high</option>
 </select>
 
-<label for = "status">Task Status</label>
-<input class = "status" name = "status" type = "radio" value = "pending"> Pending
-<input class = "status" name = "status" type = "radio" value = "completed"> Completed
 
 
 <input id = "submit" type = "submit">
