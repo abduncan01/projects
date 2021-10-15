@@ -13,7 +13,7 @@ for (let i = 0; i< inputs.length;i++){
 if (inputs[i].checked){
 status = inputs[i].value;
 }
-let new_task_html = `<div class = "newTask"> 
+let filedTasks = `<div class = "newTask"> 
 <span> ${title} </span>
 <span>| ${priority} </span> 
 <span> | ${status} </span> 
@@ -23,11 +23,11 @@ let new_task_html = `<div class = "newTask">
   <button class = "Completed"> Task Completed </button> <button class = "remove"> Remove Task </button>`;
 let priority2 = `<span> ${priority} </span>`;
 let status2 = `<span> ${status} </span>`;
-list.innerHTML = new_task_html
+list.innerHTML = filedTasks
 list.innerHTML = document.querySelector('#task').value;
 task1.push(title);
 document.querySelector('#taskList').append(list);
-document.querySelector('#task-title').value = '';
+document.querySelector('#title').value = '';
 return false;
 }
 document.addEventListener('click', function(event){
@@ -37,7 +37,7 @@ element.parentElement.remove();
 task1.remove(element);
 }
 if (element.className === 'Completed' || element.className === 'completed'){
-document.querySelector('#task-title').strike();
+document.querySelector('#title').strike();
 element.parentElement.querySelector('.newTask').style.textDecoration = "line-through";
 element.status = "completed";
 }
