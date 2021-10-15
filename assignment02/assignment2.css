@@ -1,11 +1,9 @@
 
 a:hover { color:#red;}
- @font-face { font-family: font; src: url('fonts/font.ttf'); } 
- @font-face { font-family: font2; font-weight: bold; src: url('fonts/font2.ttf');}
 body {
   background:black;
   color:#8D8D8D;
-  font-family:font;
+  font-family:arial;
   text-align:left;
   font-size:17px;
 }
