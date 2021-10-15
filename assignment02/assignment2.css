@@ -8,7 +8,7 @@ body {
   font-size:17px;
 }
 h {
-  text-align:left;
+  text-align:center;
   }
 p {
   margin-top: 50px;
@@ -31,14 +31,6 @@ img {
     }
 img {
     border: 10px solid #000;
-}
-.textborder {
-  color: #A2FFFE;
-  text-shadow: -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000, -1px 1px 0 #000;
-}
-#idselect1 {
-  text-align: center;
-  color: #001150;
 }
 table, th, td {
   border: 1px solid #30D5C8;
