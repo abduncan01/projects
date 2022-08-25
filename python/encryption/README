@@ -1,0 +1,4 @@
+This program contains two parts--
+first, it encrypts and decrypts a string using the Caesar cypher.
+Then, it performs a letter frequency analysis on a sample text file. 
+You can edit the code to read any file by changing the filename it reads in line 48.
