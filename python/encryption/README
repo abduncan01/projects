@@ -1,3 +1,4 @@
+Run the file main.py. 
 This program contains two parts--
 first, it encrypts and decrypts a string using the Caesar cypher.
 Then, it performs a letter frequency analysis on a sample text file. 
